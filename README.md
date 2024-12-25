@@ -62,6 +62,21 @@ This repository is organized into two main sections:
 
 - **Tools & Techniques**: Python, NLP Libraries (e.g., NLTK, SpaCy), Machine Learning Algorithms.
 
+### [**4. Classification of Thai Logistics Research Papers**](https://github.com/iffan20/Logistics-Research-Papers-Classification)
+
+
+- **Objective**: Classify Thai logistics research papers into predefined categories related to logistics themes, such as supply chain management, transportation, and logistics systems.
+- **Key Question**: Can machine learning and NLP techniques improve the organization and accessibility of Thai logistics research?
+- **Highlights**:
+
+    - Comparative evaluation of tokenization techniques, including Newmm (pythainlp) and WangchanBERTa.
+
+    - Optimized text vectorization using TF-IDF with parameters tuned to reduce feature noise (e.g., `max_features = 5000`, `max_df = 0.9`).
+
+    - Neural Network model demonstrated the best performance with an accuracy of 71%, using a configuration of five hidden layers, early stopping, and dropout.
+
+- **Tools & Techniques**: Python, NLP Libraries (pythainlp, Transformers), Machine Learning Models (Naive Bayes, SVM, Gradient Boosting, Neural Network).
+
 ## Labs
 
 ### Core Topics Covered
